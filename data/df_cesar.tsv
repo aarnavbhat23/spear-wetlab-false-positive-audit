@@ -1,0 +1,33 @@
+paper_title	source_proteome	doi_paper	model_used
+Mining for encrypted peptide antibiotics in the human proteome	human_proteome	10.1038/s41551-021-00801-1	not_applicable
+Synthetic Antibiotic Derived from Sequences Encrypted in a Protein from Human Plasma	human_plasma_apolipoprotein_B	10.1021/acsnano.1c04496	not_applicable
+Molecular de-extinction of ancient antimicrobial peptides enabled by machine learning	modern_human_and_archaic_hominin_proteomes	10.1016/j.chom.2023.07.001	not_applicable
+Deep-learning-enabled antibiotic discovery through molecular de-extinction	extinctome	10.1038/s41551-024-01201-x	apex_1.0
+Peptides from non-immune proteins target infections through antimicrobial and immunomodulatory properties	human_nonimmune_and_immune_proteins	10.1016/j.tibtech.2024.09.008	not_applicable
+Computational exploration of global venoms for antimicrobial discovery with Venomics artificial intelligence	venom_proteomes	10.1038/s41467-025-60051-6	apex_1.0
+Deep learning reveals antibiotics in the archaeal proteome	archaeome	10.1038/s41564-025-02061-0	apex_1.1
+Exploring the Antimicrobial and Antiviral Properties of Cryptic Peptides from Human Fibrinogen	human_fibrinogen_alpha_beta_gamma_chains	10.3390/ijms26188914	not_applicable
+Discovery of Encrypted Peptides in a Human Matrix Metallopeptidase	human_matrix_metallopeptidase_19	10.1021/jacsau.5c00947	not_applicable
+Deep learning reveals antimicrobial peptides within prions	prion_and_prion_related_proteins	10.1038/s41564-026-02408-1	apex_1.1
+Mining human microbiomes reveals an untapped source of peptide antibiotics	human_microbiome_smORFs	10.1016/j.cell.2024.07.027	not_applicable
+Discovery of antimicrobial peptides in the global microbiome with machine learning	global_microbiome_metagenomic_and_prokaryotic_smORFs	10.1016/j.cell.2024.05.013	not_applicable
+Repurposing a peptide toxin from wasp venom into antiinfectives with dual antimicrobial and immunomodulatory properties	wasp_venom_derived_synthetic_peptides	10.1073/pnas.2012379117	not_applicable
+Structure-function-guided design of synthetic peptides with anti-infective activity derived from wasp venom	wasp_venom_derived_synthetic_peptides	10.1016/j.xcrp.2023.101459	not_applicable
+Molecular hybridization strategy for tuning bioactive peptide function	scorpion_venom_derived_peptide_hybrids	10.1038/s42003-023-05254-7	not_applicable
+Frog-derived synthetic peptides display anti-infective activity against Gram-negative pathogens	frog_skin_peptide_derived_synthetic_library	10.1016/j.tibtech.2025.02.007	unverified
+Synthetic peptides targeting a mast cell-specific G protein-coupled receptor MRGPRB2 display anti-infective potential	synthetic_immunomodulatory_peptides	10.1016/j.celbio.2025.100088	not_applicable
+Generative latent diffusion language modeling yields anti-infective synthetic peptides	synthetic_sequence_space	10.1016/j.celbio.2025.100183	APEX_version_unverified
+Tailored structured peptide design with a key-cutting machine approach	synthetic_sequence_space	10.1038/s42256-025-01119-2	not_applicable
+Design of a multimodal synthetic peptide antibiotic derived from human cathelicidin	human_cathelicidin_derived_synthetic_peptides	10.1016/j.celbio.2026.100452	not_applicable
+A generative artificial intelligence approach for peptide antibiotic optimization	template_derived_synthetic_peptides	10.1038/s42256-026-01237-5	apex_1.1
+Computational design of antimicrobial peptide nanopores	de_novo_synthetic_peptides	10.1038/s41589-026-02269-z	not_applicable
+Synthetic Biology and Computer-Based Frameworks for Antimicrobial Peptide Discovery	not_applicable	10.1021/acsnano.0c09509	not_applicable
+Molecular Dynamics for Antimicrobial Peptide Discovery	not_applicable	10.1128/IAI.00703-20	not_applicable
+Recombinant production of antimicrobial peptides in plants	not_applicable	10.1016/j.biotechadv.2023.108296	not_applicable
+Machine learning for antimicrobial peptide identification and design	not_applicable	10.1038/s44222-024-00152-x	not_applicable
+Tutorial: guidelines for the use of machine learning methods to mine genomes and proteomes for antibiotic discovery	not_applicable	10.1038/s41596-025-01144-w	not_applicable
+From generation to validation: Deep generative models for antimicrobial peptide discovery	not_applicable	10.1016/j.cbpa.2026.102685	not_applicable
+Artificial intelligence in antibiotic discovery: Applications, challenges, and future outlook	not_applicable	10.1016/j.celbio.2026.100445	not_applicable
+Discovery of novel antimicrobials within microbiomes	not_applicable	10.1016/j.mib.2026.102781	not_applicable
+Mining the code of life for new antibiotics	not_applicable	10.1016/j.chom.2026.06.007	not_applicable
+Encrypted immunity mediated by peptides	not_applicable	10.1371/journal.pbio.3003914	not_applicable
