@@ -87,3 +87,13 @@ Write `findings/INDEPENDENT_AUDIT.md` with:
 
 The ready-to-use reviewer instruction is in `AUDIT_PROMPT.md`.
 
+## Independent review status
+
+An independent GPT-5.5 review is complete in
+[`findings/INDEPENDENT_AUDIT.md`](findings/INDEPENDENT_AUDIT.md). It found no
+evidence of broad inactive-peptide contamination. It did identify 26 rows whose
+active tested chemistry is all-D and/or C-terminally amidated but whose primary
+`sequence` field can encode only the bare amino-acid letters. Those rows should
+be segregated from unmodified L-sequence training until chemistry fields are
+added. The report also identifies 41 blank-MIC rows for manual figure review and
+a Venomics source-ID aggregation ambiguity.
