@@ -1,12 +1,20 @@
-# SPEAR wet-lab false-positive audit
+# Wet-lab false-positive audit protocol
 
-This temporary repository exists for an independent, adversarial review of the
-wet-lab antimicrobial-peptide dataset prepared for SPEAR. The audit question is
-simple: **does every sequence in the positive-only table have defensible,
+An adversarial review protocol for a positive-only antimicrobial-peptide assay
+table, and the review it produced. The question it tests is narrow and
+falsifiable: **does every sequence in the table have defensible,
 sequence-specific experimental evidence of antimicrobial activity?**
 
-This is a bug-finding exercise. The reviewer should try to disprove rows, not
-summarize the papers or praise the extraction.
+The design constraint is that the exercise must be able to fail. A reviewer is
+instructed to disprove rows — not to summarize the papers, and not to praise the
+extraction. The protocol below fixes in advance what counts as a false positive,
+what evidence a finding must carry, and which categories a finding may be filed
+under, so that "no problems found" is a result rather than a default.
+
+**Scope:** 2,449 peptide–assay rows · 596 unique sequences · 22 primary journal
+papers. The protocol, the finding taxonomy and the evidence standard are mine;
+the completed review was produced by a frontier model run against them, and is
+reported as such under [Independent review status](#independent-review-status).
 
 ## Primary dataset
 
@@ -88,6 +96,12 @@ Write `findings/INDEPENDENT_AUDIT.md` with:
 The ready-to-use reviewer instruction is in `AUDIT_PROMPT.md`.
 
 ## Independent review status
+
+The completed review was carried out by **GPT-5.5**, executing the protocol above
+against the dataset. The findings in `findings/` are that model's output, not a
+manual row-by-row recheck by me; the contribution in this repository is the
+protocol, the finding taxonomy, the evidence standard and the interpretation of
+what came back.
 
 An independent GPT-5.5 review is complete in
 [`findings/INDEPENDENT_AUDIT.md`](findings/INDEPENDENT_AUDIT.md). It found no
