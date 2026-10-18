@@ -19,7 +19,7 @@ positives, likely false positives, items needing manual verification, and
 patterns that are not issues.
 
 Do not modify the input TSVs. Put the complete audit in
-`findings/INDEPENDENT_AUDIT.md`. For every proposed issue, give the sequence,
+`findings/AUDIT_REPORT.md`. For every proposed issue, give the sequence,
 DOI, affected row or assay description, source location, evidence, severity and
 recommended correction. End with a concise go/no-go recommendation for using
 the dataset in model training.

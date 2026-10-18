@@ -1,4 +1,4 @@
-# Independent SPEAR wet-lab false-positive audit
+# SPEAR wet-lab false-positive audit
 
 Date: 2026-09-13
 

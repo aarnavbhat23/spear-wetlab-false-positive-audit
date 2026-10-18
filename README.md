@@ -13,8 +13,8 @@ under, so that "no problems found" is a result rather than a default.
 
 **Scope:** 2,449 peptide–assay rows · 596 unique sequences · 22 primary journal
 papers. The protocol, the finding taxonomy and the evidence standard are mine;
-the completed review was produced by a frontier model run against them, and is
-reported as such under [Independent review status](#independent-review-status).
+the completed review was produced automatically against them, and is
+reported under [Review status](#review-status).
 
 ## Primary dataset
 
@@ -84,7 +84,7 @@ unavailable, mark the item for manual verification.
 
 ## Deliverable
 
-Write `findings/INDEPENDENT_AUDIT.md` with:
+Write `findings/AUDIT_REPORT.md` with:
 
 1. a short verdict;
 2. counts by finding category;
@@ -95,16 +95,16 @@ Write `findings/INDEPENDENT_AUDIT.md` with:
 
 The ready-to-use reviewer instruction is in `AUDIT_PROMPT.md`.
 
-## Independent review status
+## Review status
 
-The completed review was carried out by **GPT-5.5**, executing the protocol above
-against the dataset. The findings in `findings/` are that model's output, not a
+The completed review was produced automatically by executing the protocol above
+against the dataset. The findings in `findings/` have not received a
 manual row-by-row recheck by me; the contribution in this repository is the
 protocol, the finding taxonomy, the evidence standard and the interpretation of
 what came back.
 
-An independent GPT-5.5 review is complete in
-[`findings/INDEPENDENT_AUDIT.md`](findings/INDEPENDENT_AUDIT.md). It found no
+The automated audit report is available in
+[`findings/AUDIT_REPORT.md`](findings/AUDIT_REPORT.md). It found no
 evidence of broad inactive-peptide contamination. It did identify 26 rows whose
 active tested chemistry is all-D and/or C-terminally amidated but whose primary
 `sequence` field can encode only the bare amino-acid letters. Those rows should
